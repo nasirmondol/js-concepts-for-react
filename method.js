@@ -22,4 +22,7 @@ const specificName = products.filter(product => product.name.includes('e'))
 // console.log(specificName);
 
 const specialOne = products.find(produc => produc.name.includes('l'))
-console.log(specialOne)
+// console.log(specialOne)
+
+const obj = {a:1};
+console.log(Object.keys(obj).length===0);
